@@ -1,0 +1,58 @@
+0 verbose cli /Users/heweihan/.nvm/versions/node/v14.17.0/bin/node /Users/heweihan/Downloads/backend/node_modules/.bin/npm
+1 info using npm@8.19.3
+2 info using node@v14.17.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/Users/heweihan/Downloads/backend/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 3ms
+8 warn config shrinkwrap Use the --package-lock setting instead.
+9 warn config cache-max This option has been deprecated in favor of `--prefer-online`
+10 warn config optional Use `--omit=optional` to exclude optional dependencies, or
+10 warn config `--include=optional` to include them.
+10 warn config
+10 warn config     Default value does install optional deps unless otherwise omitted.
+11 warn config sso-poll-frequency The --auth-type method of SSO/SAML/OAuth will be removed in a future
+11 warn config version of npm in favor of web-based login.
+12 warn config sso-type The --auth-type method of SSO/SAML/OAuth will be removed in a future
+12 warn config version of npm in favor of web-based login.
+13 warn config cache-min This option has been deprecated in favor of `--prefer-offline`.
+14 warn config tmp This setting is no longer used.  npm stores temporary files in a special
+14 warn config location in the cache, and they are managed by
+14 warn config     [`cacache`](http://npm.im/cacache).
+15 timing config:load:env Completed in 3ms
+16 timing config:load:file:/Users/heweihan/Downloads/backend/.npmrc Completed in 0ms
+17 timing config:load:project Completed in 9ms
+18 timing config:load:file:/Users/heweihan/.npmrc Completed in 0ms
+19 timing config:load:user Completed in 0ms
+20 timing config:load:file:/Users/heweihan/.nvm/versions/node/v14.17.0/etc/npmrc Completed in 0ms
+21 timing config:load:global Completed in 0ms
+22 timing config:load:validate Completed in 2ms
+23 timing config:load:credentials Completed in 1ms
+24 timing config:load:setEnvs Completed in 1ms
+25 timing config:load Completed in 22ms
+26 timing npm:load:configload Completed in 23ms
+27 timing npm:load:mkdirpcache Completed in 1ms
+28 timing npm:load:mkdirplogs Completed in 0ms
+29 verbose title npm run build
+30 verbose argv "run" "build"
+31 timing npm:load:setTitle Completed in 20ms
+32 timing config:load:flatten Completed in 3ms
+33 timing npm:load:display Completed in 7ms
+34 verbose logfile logs-max:10 dir:/Users/heweihan/.npm/_logs
+35 verbose logfile /Users/heweihan/.npm/_logs/2022-11-22T12_18_31_345Z-debug-0.log
+36 timing npm:load:logFile Completed in 7ms
+37 timing npm:load:timers Completed in 0ms
+38 timing npm:load:configScope Completed in 0ms
+39 timing npm:load Completed in 58ms
+40 silly logfile done cleaning log files
+41 http fetch GET 200 https://registry.npmjs.org/npm 1180ms (cache updated)
+42 timing command:run Completed in 56317ms
+43 notice
+43 notice New [31mmajor[39m version of npm available! [31m8.19.3[39m -> [32m9.1.2[39m
+43 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.1.2[39m
+43 notice Run [32mnpm install -g npm@9.1.2[39m to update!
+43 notice
+44 verbose exit 0
+45 timing npm Completed in 56389ms
+46 info ok

@@ -1,0 +1,313 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/heweihan/.nvm/versions/node/v14.17.0/bin/node',
+1 verbose cli   '/Users/heweihan/.nvm/versions/node/v14.17.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   'types-registry@latest'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.0
+4 verbose npm-session 879e82cf8d8affac
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/types-registry 726ms (from cache)
+8 silly pacote tag manifest for types-registry@latest fetched in 742ms
+9 timing stage:loadCurrentTree Completed in 1944ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 2ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 517ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule types-registry@0.1.619 checking installable status
+17 silly removeObsoleteDep removing types-registry@0.1.619 from the tree as its been replaced by a newer version or is no longer required
+18 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 572ms
+19 timing stage:loadIdealTree Completed in 1252ms
+20 silly currentTree 4.8
+20 silly currentTree +-- @babel/code-frame@7.18.6
+20 silly currentTree +-- @babel/helper-validator-identifier@7.19.1
+20 silly currentTree +-- @babel/highlight@7.18.6
+20 silly currentTree | +-- ansi-styles@3.2.1
+20 silly currentTree | +-- chalk@2.4.2
+20 silly currentTree | +-- color-convert@1.9.3
+20 silly currentTree | +-- color-name@1.1.3
+20 silly currentTree | +-- has-flag@3.0.0
+20 silly currentTree | `-- supports-color@5.5.0
+20 silly currentTree +-- @jest/expect-utils@29.3.1
+20 silly currentTree +-- @jest/schemas@29.0.0
+20 silly currentTree +-- @jest/types@29.3.1
+20 silly currentTree +-- @popperjs/core@2.11.6
+20 silly currentTree +-- @sinclair/typebox@0.24.51
+20 silly currentTree +-- @types/bootstrap@5.2.6
+20 silly currentTree +-- @types/chart.js@2.9.37
+20 silly currentTree +-- @types/dropzone@5.7.4
+20 silly currentTree +-- @types/history@4.7.11
+20 silly currentTree +-- @types/hoist-non-react-statics@3.3.1
+20 silly currentTree +-- @types/istanbul-lib-coverage@2.0.4
+20 silly currentTree +-- @types/istanbul-lib-report@3.0.0
+20 silly currentTree +-- @types/istanbul-reports@3.0.1
+20 silly currentTree +-- @types/jest@29.2.2
+20 silly currentTree +-- @types/jquery@3.5.14
+20 silly currentTree +-- @types/node@18.11.9
+20 silly currentTree +-- @types/npm@7.19.0
+20 silly currentTree +-- @types/object-assign@4.0.30
+20 silly currentTree +-- @types/prop-types@15.7.5
+20 silly currentTree +-- @types/react-bootstrap@0.32.32
+20 silly currentTree +-- @types/react-datepicker@4.8.0
+20 silly currentTree +-- @types/react-datetime-picker@3.4.1
+20 silly currentTree +-- @types/react-dom@18.0.9
+20 silly currentTree +-- @types/react-fontawesome@1.6.5
+20 silly currentTree +-- @types/react-helmet@6.1.5
+20 silly currentTree +-- @types/react-modal@3.13.1
+20 silly currentTree +-- @types/react-router-dom@5.3.3
+20 silly currentTree +-- @types/react-router@5.1.19
+20 silly currentTree +-- @types/react-side-effect@1.1.1
+20 silly currentTree +-- @types/react-slick@0.23.10
+20 silly currentTree +-- @types/react@18.0.25
+20 silly currentTree +-- @types/sass@1.43.1
+20 silly currentTree +-- @types/scheduler@0.16.2
+20 silly currentTree +-- @types/sizzle@2.3.3
+20 silly currentTree +-- @types/stack-utils@2.0.1
+20 silly currentTree +-- @types/styled-components@5.1.26
+20 silly currentTree +-- @types/testing-library__jest-dom@5.14.5
+20 silly currentTree +-- @types/yargs-parser@21.0.0
+20 silly currentTree +-- @types/yargs@17.0.13
+20 silly currentTree +-- ansi-styles@4.3.0
+20 silly currentTree +-- braces@3.0.2
+20 silly currentTree +-- chalk@4.1.2
+20 silly currentTree +-- ci-info@3.6.1
+20 silly currentTree +-- color-convert@2.0.1
+20 silly currentTree +-- color-name@1.1.4
+20 silly currentTree +-- csstype@3.1.1
+20 silly currentTree +-- date-fns@2.29.3
+20 silly currentTree +-- diff-sequences@29.3.1
+20 silly currentTree +-- escape-string-regexp@1.0.5
+20 silly currentTree +-- expect@29.3.1
+20 silly currentTree +-- fill-range@7.0.1
+20 silly currentTree +-- graceful-fs@4.2.10
+20 silly currentTree +-- has-flag@4.0.0
+20 silly currentTree +-- hoist-non-react-statics@3.3.2
+20 silly currentTree +-- is-number@7.0.0
+20 silly currentTree +-- jest-diff@29.3.1
+20 silly currentTree +-- jest-get-type@29.2.0
+20 silly currentTree +-- jest-matcher-utils@29.3.1
+20 silly currentTree +-- jest-message-util@29.3.1
+20 silly currentTree +-- jest-util@29.3.1
+20 silly currentTree +-- js-tokens@4.0.0
+20 silly currentTree +-- loose-envify@1.4.0
+20 silly currentTree +-- micromatch@4.0.5
+20 silly currentTree +-- moment@2.29.4
+20 silly currentTree +-- picomatch@2.3.1
+20 silly currentTree +-- pretty-format@29.3.1
+20 silly currentTree | +-- ansi-styles@5.2.0
+20 silly currentTree | `-- react-is@18.2.0
+20 silly currentTree +-- react-fast-compare@3.2.0
+20 silly currentTree +-- react-is@16.13.1
+20 silly currentTree +-- react-popper@2.3.0
+20 silly currentTree +-- slash@3.0.0
+20 silly currentTree +-- stack-utils@2.0.6
+20 silly currentTree | `-- escape-string-regexp@2.0.0
+20 silly currentTree +-- supports-color@7.2.0
+20 silly currentTree +-- to-regex-range@5.0.1
+20 silly currentTree +-- types-registry@0.1.619
+20 silly currentTree `-- warning@4.0.3
+21 silly idealTree 4.8
+21 silly idealTree +-- @babel/code-frame@7.18.6
+21 silly idealTree +-- @babel/helper-validator-identifier@7.19.1
+21 silly idealTree +-- @babel/highlight@7.18.6
+21 silly idealTree | +-- ansi-styles@3.2.1
+21 silly idealTree | +-- chalk@2.4.2
+21 silly idealTree | +-- color-convert@1.9.3
+21 silly idealTree | +-- color-name@1.1.3
+21 silly idealTree | +-- has-flag@3.0.0
+21 silly idealTree | `-- supports-color@5.5.0
+21 silly idealTree +-- @jest/expect-utils@29.3.1
+21 silly idealTree +-- @jest/schemas@29.0.0
+21 silly idealTree +-- @jest/types@29.3.1
+21 silly idealTree +-- @popperjs/core@2.11.6
+21 silly idealTree +-- @sinclair/typebox@0.24.51
+21 silly idealTree +-- @types/bootstrap@5.2.6
+21 silly idealTree +-- @types/chart.js@2.9.37
+21 silly idealTree +-- @types/dropzone@5.7.4
+21 silly idealTree +-- @types/history@4.7.11
+21 silly idealTree +-- @types/hoist-non-react-statics@3.3.1
+21 silly idealTree +-- @types/istanbul-lib-coverage@2.0.4
+21 silly idealTree +-- @types/istanbul-lib-report@3.0.0
+21 silly idealTree +-- @types/istanbul-reports@3.0.1
+21 silly idealTree +-- @types/jest@29.2.2
+21 silly idealTree +-- @types/jquery@3.5.14
+21 silly idealTree +-- @types/node@18.11.9
+21 silly idealTree +-- @types/npm@7.19.0
+21 silly idealTree +-- @types/object-assign@4.0.30
+21 silly idealTree +-- @types/prop-types@15.7.5
+21 silly idealTree +-- @types/react-bootstrap@0.32.32
+21 silly idealTree +-- @types/react-datepicker@4.8.0
+21 silly idealTree +-- @types/react-datetime-picker@3.4.1
+21 silly idealTree +-- @types/react-dom@18.0.9
+21 silly idealTree +-- @types/react-fontawesome@1.6.5
+21 silly idealTree +-- @types/react-helmet@6.1.5
+21 silly idealTree +-- @types/react-modal@3.13.1
+21 silly idealTree +-- @types/react-router-dom@5.3.3
+21 silly idealTree +-- @types/react-router@5.1.19
+21 silly idealTree +-- @types/react-side-effect@1.1.1
+21 silly idealTree +-- @types/react-slick@0.23.10
+21 silly idealTree +-- @types/react@18.0.25
+21 silly idealTree +-- @types/sass@1.43.1
+21 silly idealTree +-- @types/scheduler@0.16.2
+21 silly idealTree +-- @types/sizzle@2.3.3
+21 silly idealTree +-- @types/stack-utils@2.0.1
+21 silly idealTree +-- @types/styled-components@5.1.26
+21 silly idealTree +-- @types/testing-library__jest-dom@5.14.5
+21 silly idealTree +-- @types/yargs-parser@21.0.0
+21 silly idealTree +-- @types/yargs@17.0.13
+21 silly idealTree +-- ansi-styles@4.3.0
+21 silly idealTree +-- braces@3.0.2
+21 silly idealTree +-- chalk@4.1.2
+21 silly idealTree +-- ci-info@3.6.1
+21 silly idealTree +-- color-convert@2.0.1
+21 silly idealTree +-- color-name@1.1.4
+21 silly idealTree +-- csstype@3.1.1
+21 silly idealTree +-- date-fns@2.29.3
+21 silly idealTree +-- diff-sequences@29.3.1
+21 silly idealTree +-- escape-string-regexp@1.0.5
+21 silly idealTree +-- expect@29.3.1
+21 silly idealTree +-- fill-range@7.0.1
+21 silly idealTree +-- graceful-fs@4.2.10
+21 silly idealTree +-- has-flag@4.0.0
+21 silly idealTree +-- hoist-non-react-statics@3.3.2
+21 silly idealTree +-- is-number@7.0.0
+21 silly idealTree +-- jest-diff@29.3.1
+21 silly idealTree +-- jest-get-type@29.2.0
+21 silly idealTree +-- jest-matcher-utils@29.3.1
+21 silly idealTree +-- jest-message-util@29.3.1
+21 silly idealTree +-- jest-util@29.3.1
+21 silly idealTree +-- js-tokens@4.0.0
+21 silly idealTree +-- loose-envify@1.4.0
+21 silly idealTree +-- micromatch@4.0.5
+21 silly idealTree +-- moment@2.29.4
+21 silly idealTree +-- picomatch@2.3.1
+21 silly idealTree +-- pretty-format@29.3.1
+21 silly idealTree | +-- ansi-styles@5.2.0
+21 silly idealTree | `-- react-is@18.2.0
+21 silly idealTree +-- react-fast-compare@3.2.0
+21 silly idealTree +-- react-is@16.13.1
+21 silly idealTree +-- react-popper@2.3.0
+21 silly idealTree +-- slash@3.0.0
+21 silly idealTree +-- stack-utils@2.0.6
+21 silly idealTree | `-- escape-string-regexp@2.0.0
+21 silly idealTree +-- supports-color@7.2.0
+21 silly idealTree +-- to-regex-range@5.0.1
+21 silly idealTree +-- types-registry@0.1.619
+21 silly idealTree `-- warning@4.0.3
+22 silly install generateActionsToTake
+23 warn checkPermissions Missing write access to /Users/heweihan/Library/Caches/typescript/4.8/node_modules/types-registry
+24 timing stage:rollbackFailedOptional Completed in 0ms
+25 timing stage:runTopLevelLifecycles Completed in 3254ms
+26 silly saveTree 4.8
+26 silly saveTree +-- @types/bootstrap@5.2.6
+26 silly saveTree | `-- @popperjs/core@2.11.6
+26 silly saveTree +-- @types/chart.js@2.9.37
+26 silly saveTree | `-- moment@2.29.4
+26 silly saveTree +-- @types/dropzone@5.7.4
+26 silly saveTree | `-- @types/jquery@3.5.14
+26 silly saveTree |   `-- @types/sizzle@2.3.3
+26 silly saveTree +-- @types/npm@7.19.0
+26 silly saveTree | `-- @types/node@18.11.9
+26 silly saveTree +-- @types/object-assign@4.0.30
+26 silly saveTree +-- @types/react-bootstrap@0.32.32
+26 silly saveTree | `-- @types/react@18.0.25
+26 silly saveTree |   +-- @types/prop-types@15.7.5
+26 silly saveTree |   +-- @types/scheduler@0.16.2
+26 silly saveTree |   `-- csstype@3.1.1
+26 silly saveTree +-- @types/react-datepicker@4.8.0
+26 silly saveTree | +-- date-fns@2.29.3
+26 silly saveTree | `-- react-popper@2.3.0
+26 silly saveTree |   +-- react-fast-compare@3.2.0
+26 silly saveTree |   `-- warning@4.0.3
+26 silly saveTree |     `-- loose-envify@1.4.0
+26 silly saveTree |       `-- js-tokens@4.0.0
+26 silly saveTree +-- @types/react-datetime-picker@3.4.1
+26 silly saveTree +-- @types/react-dom@18.0.9
+26 silly saveTree +-- @types/react-fontawesome@1.6.5
+26 silly saveTree +-- @types/react-helmet@6.1.5
+26 silly saveTree +-- @types/react-modal@3.13.1
+26 silly saveTree +-- @types/react-router-dom@5.3.3
+26 silly saveTree | +-- @types/history@4.7.11
+26 silly saveTree | `-- @types/react-router@5.1.19
+26 silly saveTree +-- @types/react-side-effect@1.1.1
+26 silly saveTree +-- @types/react-slick@0.23.10
+26 silly saveTree +-- @types/react@18.0.25
+26 silly saveTree +-- @types/sass@1.43.1
+26 silly saveTree +-- @types/styled-components@5.1.26
+26 silly saveTree | `-- @types/hoist-non-react-statics@3.3.1
+26 silly saveTree |   `-- hoist-non-react-statics@3.3.2
+26 silly saveTree |     `-- react-is@16.13.1
+26 silly saveTree +-- @types/testing-library__jest-dom@5.14.5
+26 silly saveTree | `-- @types/jest@29.2.2
+26 silly saveTree |   +-- expect@29.3.1
+26 silly saveTree |   | +-- @jest/expect-utils@29.3.1
+26 silly saveTree |   | | `-- jest-get-type@29.2.0
+26 silly saveTree |   | +-- jest-get-type@29.2.0
+26 silly saveTree |   | +-- jest-matcher-utils@29.3.1
+26 silly saveTree |   | | +-- chalk@4.1.2
+26 silly saveTree |   | | | +-- ansi-styles@4.3.0
+26 silly saveTree |   | | | | `-- color-convert@2.0.1
+26 silly saveTree |   | | | |   `-- color-name@1.1.4
+26 silly saveTree |   | | | `-- supports-color@7.2.0
+26 silly saveTree |   | | |   `-- has-flag@4.0.0
+26 silly saveTree |   | | +-- jest-diff@29.3.1
+26 silly saveTree |   | | | +-- diff-sequences@29.3.1
+26 silly saveTree |   | | | `-- pretty-format@29.3.1
+26 silly saveTree |   | | |   +-- @jest/schemas@29.0.0
+26 silly saveTree |   | | |   | `-- @sinclair/typebox@0.24.51
+26 silly saveTree |   | | |   +-- ansi-styles@5.2.0
+26 silly saveTree |   | | |   `-- react-is@18.2.0
+26 silly saveTree |   | | `-- pretty-format@29.3.1
+26 silly saveTree |   | +-- jest-message-util@29.3.1
+26 silly saveTree |   | | +-- @babel/code-frame@7.18.6
+26 silly saveTree |   | | | `-- @babel/highlight@7.18.6
+26 silly saveTree |   | | |   +-- @babel/helper-validator-identifier@7.19.1
+26 silly saveTree |   | | |   `-- chalk@2.4.2
+26 silly saveTree |   | | |     +-- ansi-styles@3.2.1
+26 silly saveTree |   | | |     | `-- color-convert@1.9.3
+26 silly saveTree |   | | |     |   `-- color-name@1.1.3
+26 silly saveTree |   | | |     +-- escape-string-regexp@1.0.5
+26 silly saveTree |   | | |     `-- supports-color@5.5.0
+26 silly saveTree |   | | |       `-- has-flag@3.0.0
+26 silly saveTree |   | | +-- @jest/types@29.3.1
+26 silly saveTree |   | | | +-- @types/istanbul-lib-coverage@2.0.4
+26 silly saveTree |   | | | +-- @types/istanbul-reports@3.0.1
+26 silly saveTree |   | | | | `-- @types/istanbul-lib-report@3.0.0
+26 silly saveTree |   | | | `-- @types/yargs@17.0.13
+26 silly saveTree |   | | |   `-- @types/yargs-parser@21.0.0
+26 silly saveTree |   | | +-- @types/stack-utils@2.0.1
+26 silly saveTree |   | | +-- graceful-fs@4.2.10
+26 silly saveTree |   | | +-- micromatch@4.0.5
+26 silly saveTree |   | | | +-- braces@3.0.2
+26 silly saveTree |   | | | | `-- fill-range@7.0.1
+26 silly saveTree |   | | | |   `-- to-regex-range@5.0.1
+26 silly saveTree |   | | | |     `-- is-number@7.0.0
+26 silly saveTree |   | | | `-- picomatch@2.3.1
+26 silly saveTree |   | | +-- slash@3.0.0
+26 silly saveTree |   | | `-- stack-utils@2.0.6
+26 silly saveTree |   | |   `-- escape-string-regexp@2.0.0
+26 silly saveTree |   | `-- jest-util@29.3.1
+26 silly saveTree |   |   `-- ci-info@3.6.1
+26 silly saveTree |   `-- pretty-format@29.3.1
+26 silly saveTree `-- types-registry@0.1.619
+27 warn react-popper@2.3.0 requires a peer of react@^16.8.0 || ^17 || ^18 but none is installed. You must install peer dependencies yourself.
+28 warn react-popper@2.3.0 requires a peer of react-dom@^16.8.0 || ^17 || ^18 but none is installed. You must install peer dependencies yourself.
+29 verbose stack Error: ENOENT: no such file or directory, access '/Users/heweihan/Library/Caches/typescript/4.8/node_modules/types-registry'
+30 verbose cwd /Users/heweihan/Library/Caches/typescript/4.8
+31 verbose Darwin 21.3.0
+32 verbose argv "/Users/heweihan/.nvm/versions/node/v14.17.0/bin/node" "/Users/heweihan/.nvm/versions/node/v14.17.0/bin/npm" "install" "--ignore-scripts" "types-registry@latest"
+33 verbose node v14.17.0
+34 verbose npm  v6.14.13
+35 error code ENOENT
+36 error syscall access
+37 error path /Users/heweihan/Library/Caches/typescript/4.8/node_modules/types-registry
+38 error errno -2
+39 error enoent ENOENT: no such file or directory, access '/Users/heweihan/Library/Caches/typescript/4.8/node_modules/types-registry'
+40 error enoent This is related to npm not being able to find a file.
+41 verbose exit [ -2, true ]
