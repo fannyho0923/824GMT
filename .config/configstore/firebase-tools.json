@@ -1,0 +1,47 @@
+{
+	"analytics-uuid": "a9cd3197-eb3b-4a24-9157-e88678218b96",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1669054115427
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "108529098425339104404",
+		"email": "fannyho0923@gmail.com",
+		"email_verified": true,
+		"at_hash": "ZZIBAS4S6d_LirAQLV-9SA",
+		"iat": 1632325035,
+		"exp": 1632328635
+	},
+	"tokens": {
+		"expires_at": 1638989894370,
+		"refresh_token": "1//0eeTf9OPCjnVyCgYIARAAGA4SNwF-L9IrnY5w61FUjU3nlwxnBwsIGcYYUuu-aayj3nBWR179wc2Bsc4RuBDkyuaXMfHxoMfR3D8",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0ARrdaM_Ryp-z2s1DgVMtDxjIn_KpDzeEuPiBt1LSKQa2F38kjhRDoAQ_y3b2yr2sD3jyB1FVffHtWqeVyOy5-EYFUvOnbdSXC_6o5BbALCCQaiBazcICnehEmB5wwesUcCwlDQaiW6WDD9mTEAJt7hO407lGFmN_dCX2xzM",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform openid https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMxODkyZWI0OWQ3ZWY5YWRmOGIyZTE0YzA1Y2EwZDAzMjcxNGEyMzciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA4NTI5MDk4NDI1MzM5MTA0NDA0IiwiZW1haWwiOiJmYW5ueWhvMDkyM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IkduYm53MEprLUljcEJ3ZVFXWmxtbnciLCJpYXQiOjE2Mzg5ODYyOTUsImV4cCI6MTYzODk4OTg5NX0.WrgBiJG2s0Tf5SD6bA8asLyx6V4ElSxhhQ9-lyjMjNK6sWbU5WIoeGSXt-6_zNcmeRmDEk2oO98X2bOEqm_9s-e5hfCyVzzdPzrboaH7uurphbxcBWq9x7hT0oEzlFQfb9jy-LRn4hEg-ZF4AiArKU9Gkv2T-RgzhnP-96xnpWJSoVDMby_88hFYzDPL7Q6Ax4fX4NZcLTo_16yWzxIh2qw2_0yTL4z3tx6a81qtqFApho3g9lGebgMa2SvK_C8NF0_3mqo5FiPkotBy9SkLpUhPN-6MhTTcPUTvPuD70Dad3NNdxZ6caqUHd-Jk6bwrxvaIo5jCrrQsCD-DHRyy1A"
+	},
+	"activeProjects": {
+		"/Users/heweihan/demo": "fir-e391d",
+		"/Users/heweihan/IQTesting/iqtest": "iqdemo",
+		"/Users/heweihan/Web/week5/homework/week5_vue_2_exercise/hw5_2_vue2": "water-a0766"
+	},
+	"lastError": 1669054938208
+}
